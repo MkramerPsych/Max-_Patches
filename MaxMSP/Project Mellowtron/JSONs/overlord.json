@@ -1,0 +1,25 @@
+{
+	"pattrstorage" : 	{
+		"name" : "overlord",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"Gain_Ctrl_1" : [ 0 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"Gain_Ctrl_1" : [ 124 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

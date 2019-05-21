@@ -1,0 +1,6 @@
+Mono/Polyphonic:
+Click the encoder to enter menu mode.
+Rotate the encoder to move the blue LED to the third one down (C position), and click the encoder again.
+Click on position 1 on the red LED to change the pitch bend depth.
+Move the encoder so that only the blue LEDs in positions 5 and 6 are on. This sets the pitch bend range to 48 semitones, matching the range set in Dashboard.
+Click the encoder to save the pitch bend range and exit menu mode.

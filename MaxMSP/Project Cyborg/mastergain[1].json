@@ -1,0 +1,27 @@
+{
+	"pattrstorage" : 	{
+		"name" : "mastergain[1]",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"mastergain" : [ 0 ],
+					"RefCtrl::overlord" : [ -1 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"mastergain" : [ 103 ],
+					"RefCtrl::overlord" : [ 2 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

@@ -1,0 +1,14 @@
+Monophonic:
+Connect the Seaboard to your computer by USB and open up ROLI Dashboard.
+Select Channel Mode: Single and Channel: 9.
+Select Press Mode: Channel Pressure.
+Set the XY Touchpad’s outputs to their defaults of CC113 & CC114.
+Adjust the Pitch Bend Range to 48.
+
+Duophonic:
+Connect the Seaboard to your computer by USB and open up ROLI Dashboard.
+Select Channel Mode: Multi, MPE: Off, and a Channel Range of 9–10.
+Select Press Mode: Channel Pressure.
+Set the XY Touchpad’s outputs to their defaults of CC113 & CC114.
+Make sure that the Touch Faders are set to their defaults, CC107, CC109, and CC111.
+Adjust the Pitch Bend Range to 48.

@@ -1,0 +1,27 @@
+Monophonic:
+	1: Pitch
+	2: Gate/Trigger
+	3: Velocity (Strike)
+	4: Aftertouch (Press)
+	5: Slide
+	6: RISE’s XY Touchpad X
+	7: RISE’s XY Touchpad Y
+
+Duophonic (FH-1/FHX-1):
+FH-1 (voice 1)
+	1: Pitch
+	2: Gate/Trigger
+	3: Velocity (Strike)
+	4: Aftertouch (Press)
+	5: Slide
+	6: RISE’s XY Touchpad X
+	7: RISE’s XY Touchpad Y
+FHX-1 (voice 2)
+	9: Pitch
+	10: Gate/Trigger
+	11: Velocity (Strike)
+	12: Aftertouch (Press)
+	13: Slide
+	14: Left Touch Fader
+	15: Center Touch Fader
+	16:  Right Touch Fader

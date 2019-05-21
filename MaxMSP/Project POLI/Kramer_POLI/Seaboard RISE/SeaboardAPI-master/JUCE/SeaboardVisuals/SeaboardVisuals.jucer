@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="ekPLZx" name="SeaboardVisuals" projectType="guiapp" version="1.0.0"
+              bundleIdentifier="com.yourcompany.SeaboardVisuals" includeBinaryInAppConfig="1"
+              jucerVersion="3.1.0">
+  <MAINGROUP id="JuNFNv" name="SeaboardVisuals">
+    <GROUP id="{1D13883D-FFE9-E99E-8E4B-65EF19ACA605}" name="SeaboardLibraryCode">
+      <FILE id="rG6hdU" name="BinaryData.cpp" compile="1" resource="0" file="../Library/SeaboardLibraryCode/BinaryData.cpp"/>
+      <FILE id="GMsYSy" name="BinaryData.h" compile="0" resource="0" file="../Library/SeaboardLibraryCode/BinaryData.h"/>
+      <FILE id="h3e6J9" name="Seaboard.cpp" compile="1" resource="0" file="../Library/SeaboardLibraryCode/Seaboard.cpp"/>
+      <FILE id="JSzNxM" name="Seaboard.h" compile="0" resource="0" file="../Library/SeaboardLibraryCode/Seaboard.h"/>
+      <FILE id="GFVVTn" name="SeaboardPlayer.cpp" compile="1" resource="0"
+            file="../Library/SeaboardLibraryCode/SeaboardPlayer.cpp"/>
+      <FILE id="tZUu50" name="SeaboardVoice.cpp" compile="1" resource="0"
+            file="../Library/SeaboardLibraryCode/SeaboardVoice.cpp"/>
+    </GROUP>
+    <GROUP id="{EC967E0A-8A86-6AA5-6D75-16CA6C618C79}" name="Source">
+      <FILE id="kBilyB" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="bQifOJ" name="SeaboardComponent.cpp" compile="1" resource="0"
+            file="Source/SeaboardComponent.cpp"/>
+      <FILE id="A8d80d" name="SeaboardComponent.h" compile="0" resource="0"
+            file="Source/SeaboardComponent.h"/>
+      <FILE id="hkagsV" name="SeaboardVisualiser.cpp" compile="1" resource="0"
+            file="Source/SeaboardVisualiser.cpp"/>
+      <FILE id="Lxnwfy" name="SeaboardVisualiser.h" compile="0" resource="0"
+            file="Source/SeaboardVisualiser.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" osxSDK="default" osxCompatibility="default" osxArchitecture="default"
+                       isDebug="1" optimisation="1" targetName="SeaboardVisuals"/>
+        <CONFIGURATION name="Release" osxSDK="default" osxCompatibility="default" osxArchitecture="default"
+                       isDebug="0" optimisation="2" targetName="SeaboardVisuals"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../Library/modules"/>
+        <MODULEPATH id="juce_events" path="../Library/modules"/>
+        <MODULEPATH id="juce_graphics" path="../Library/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../Library/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../Library/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../Library/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../Library/modules"/>
+        <MODULEPATH id="juce_video" path="../Library/modules"/>
+        <MODULEPATH id="juce_opengl" path="../Library/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../Library/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../Library/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../Library/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../Library/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+    <VS2013 targetFolder="Builds/VisualStudio2013">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="SeaboardVisuals"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="2" targetName="SeaboardVisuals"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_video" path="../Library/modules"/>
+        <MODULEPATH id="juce_opengl" path="../Library/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../Library/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../Library/modules"/>
+        <MODULEPATH id="juce_graphics" path="../Library/modules"/>
+        <MODULEPATH id="juce_events" path="../Library/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../Library/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../Library/modules"/>
+        <MODULEPATH id="juce_core" path="../Library/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../Library/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../Library/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../Library/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../Library/modules"/>
+      </MODULEPATHS>
+    </VS2013>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULES id="juce_audio_basics" showAllCode="0" useLocalCopy="0"/>
+    <MODULES id="juce_audio_devices" showAllCode="0" useLocalCopy="0"/>
+    <MODULES id="juce_audio_formats" showAllCode="0" useLocalCopy="0"/>
+    <MODULES id="juce_audio_processors" showAllCode="0" useLocalCopy="0"/>
+    <MODULES id="juce_core" showAllCode="0" useLocalCopy="0"/>
+    <MODULES id="juce_cryptography" showAllCode="0" useLocalCopy="0"/>
+    <MODULES id="juce_data_structures" showAllCode="0" useLocalCopy="0"/>
+    <MODULES id="juce_events" showAllCode="0" useLocalCopy="0"/>
+    <MODULES id="juce_graphics" showAllCode="0" useLocalCopy="0"/>
+    <MODULES id="juce_gui_basics" showAllCode="0" useLocalCopy="0"/>
+    <MODULES id="juce_gui_extra" showAllCode="0" useLocalCopy="0"/>
+    <MODULES id="juce_opengl" showAllCode="0" useLocalCopy="0"/>
+    <MODULES id="juce_video" showAllCode="0" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>
