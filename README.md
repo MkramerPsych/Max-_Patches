@@ -1,2 +1,2 @@
-# TECH
-Music Technology @ Oberlin
+# Max~
+Max Patches 
